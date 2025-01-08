@@ -10,11 +10,11 @@ let package = Package(
         .tvOS(.v11)
     ],
     products: [
-        .library(name: "KarteCrashReporter", targets: ["CrashReporter"])
+        .library(name: "KarteCrashReporter", targets: ["KarteCrashReporter"])
     ],
     targets: [
         .binaryTarget(
-            name: "CrashReporter",
+            name: "KarteCrashReporter",
             url: "https://sdk.karte.io/ios/swiftpm/CrashReporter-1.11.0/CrashReporter.xcframework.zip",
             checksum: "533796f22a31a418d63b719bfba092569f50c81bbc288e9fd3549c3f6c695c5b"
         ),
